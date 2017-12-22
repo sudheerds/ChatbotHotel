@@ -49,6 +49,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.messageField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {

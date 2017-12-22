@@ -18,8 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         let configuration = AIDefaultConfiguration()
-        configuration.clientAccessToken = "28bebe66ef2f451780d976e87fb1903b"
-        
+        //configuration.clientAccessToken = "28bebe66ef2f451780d976e87fb1903b"
+        // Manikanta dialogflow
+        configuration.clientAccessToken = "ab5d411b61294029a7fe72aff3055761"
         let apiai = ApiAI.shared()
         apiai?.configuration = configuration
         
